@@ -1,0 +1,217 @@
+/** Global **/
+* { 
+	box-sizing: border-box; 
+}
+
+img { 
+	margin:auto;
+	display:block;
+	padding-bottom:30px;
+}
+
+main {
+	font-family:helvectica, georgia, sans serif;
+	background-color:white;
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:18px;
+	line-height:1.4em;
+}
+
+body {
+	background-color:#4E598C;
+}
+
+/** Footer **/
+footer {
+	border-top:3px solid #4E598C;
+	margin-top:40px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.footercontactinfo {
+	text-align:center;
+}
+
+.footeremail {
+	color:black;
+	padding-bottom:10px;
+}
+
+a.footeremail:hover {
+	color:#4E598C;
+}
+
+/** Header **/
+header {
+	background-image: url("images/headerimage.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.luccistitle {
+	color:white;
+	text-transform: uppercase;
+	margin-top:10px;
+	padding-top:20px;
+}
+
+.navul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.navli {
+	margin-right: 20px;
+}
+
+/** Links **/
+a {
+	color:white;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#F9C784;
+}
+
+.ordonlbutton {
+	color:black;
+	background-color:#FF8C42;
+	padding:8px;
+}
+
+a.ordonlbutton:hover {
+	color:#4E598C;
+}
+
+
+/** Contact Information **/
+aside {
+  padding-left:150px;
+  display:inline-block;
+  text-align:left;
+  margin-right:430px;
+  float:left;
+}
+
+section {
+  display:inline-block;
+  float:left;
+  text-align:left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/** Homepage **/
+.homeh2 {
+	text-align:center;
+}
+
+.homep {
+	text-align:center;
+	margin-left:20px;
+	padding-right:20px;
+	line-height:1.6em;
+}
+
+/** About Us Gallery and About Us Elements **/
+.gallery img {
+  width:100%;
+  height:auto;
+  padding-top:30px;
+}
+
+.responsive {
+  padding:0px 6px;
+  float:left;
+  width:24.99999%;
+}
+
+blockquote {
+	color: black;
+	border-top: solid 2px #FF8C42;
+	text-transform: uppercase;
+	width:35%;
+	float:right;
+	margin-top:30px;
+}
+
+.aboutusp {
+	max-width:700px;
+	text-align:center;
+	float:left;
+	line-height:2em;
+	font-size:18px;
+}
+
+/** Menu **/
+.menutitle {
+	text-transform:uppercase;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.menunote {
+	padding-bottom:30px;
+	text-align:center;
+}
+
+.foodandprice {
+	text-align:center;
+	
+}
+
+.fooddesc {
+	color:grey;
+	text-align:center;
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.fooddescend {
+	color:grey;
+	border-bottom:1px solid #FF8C42;
+	text-align:center;
+	margin-bottom:40px;
+	padding-bottom:10px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+/** Contact Page **/
+.contactinfo {
+	line-height:1.8em;
+	text-align:center;
+}
+
+.email {
+	color:black;
+	padding-bottom:30px;
+}
+
+a.email:hover {
+	color:#4E598C;
+}
+
+/** Reservation Form Page **/
+form {
+	max-width:600px;
+	margin-left:300px;
+	text-align:center;
+	margin-top:20px;
+	padding-bottom:30px;
+	border:2px solid #FF8C42;
+}

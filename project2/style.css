@@ -1,0 +1,192 @@
+/** Global **/
+* { 
+	box-sizing: border-box; 
+}
+
+img { 
+	margin:auto;
+	display:block;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+main {
+	font-family:Montserrat;
+	background-color:white;
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:18px;
+	line-height:1.4em;
+}
+
+body {
+	background-color:#3B3F46;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/** Navigation & Header **/
+header {
+	background-color:black;
+	background-size:cover;
+	text-align:center;
+}
+
+.navul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.navli {
+	margin-right: 25px;
+}
+
+/** Links **/
+a {
+	color:white;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#F4DD08;
+}
+
+a.mainlinks {
+	color:black;
+}
+
+a.mainlinks:hover {
+	color:#403F45;
+}
+
+a.donatebutton {
+	color:black;
+	border: 1px solid #F4DD08;
+	background-color:#F4DD08;
+	padding:8px;
+	text-decoration: none;
+}
+
+/** Footer **/
+footer {
+	border-top:3px solid #F4DD08;
+	margin-top:40px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.footerhead {
+	padding-top:10px;
+	padding-bottom:5px;
+	font-size:22px;
+}
+
+.footerimg {
+	float:left;
+	width:8%;
+	height:auto;
+	margin-left:325px;
+}
+
+/** Home Page **/
+.homeimg {
+	float:left;
+	padding-top:20px;
+	max-width:50%;
+	max-height:50%;
+	padding:20px;
+	margin-top:50px;
+}
+
+.homehead {
+	padding-top:15px;
+	padding-bottom:10px;
+}
+
+.homep {
+	max-width:400px;
+	margin-left:400px;
+	font-size:19px;
+	line-height:2em;
+}
+
+.homep2 {
+	max-width:800px;
+	margin-left:200px;
+	font-size:19px;
+	line-height:2em;
+}
+
+.donateblurb {
+	max-width:900px;
+	margin-left:150px;
+	padding-bottom:15px;
+	line-height:1.6em;
+}
+
+/** About Us **/
+.historytitle {
+	padding:10px;
+}
+
+/** Forever Homes **/
+.fhimages {
+	float:left;
+	width:600px;
+	height:720px;
+	padding:20px;
+}
+
+.fhcomment {
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:1.6em;
+}
+
+/** Adoption Page **/
+.adoptheader {
+	padding:15px;
+	font-size:40px;
+}
+
+.adoptimg {
+	max-width:50%;
+	max-height:50%;
+}
+
+#adopt {
+	max-width:1000px;
+	margin:auto;
+}
+
+#adopt th {
+	font-size:25px;
+	padding-top:15px;
+	padding-bottom:20px;
+	text-transform:uppercase;
+}
+
+#adopt td {
+	text-align:center;
+	padding:10px;
+}
+
+#adopt td.catname {
+	font-size:30px;
+}
+
+#adopt td.catinfo {
+	font-size:23px;
+	line-height:1.7em;
+}

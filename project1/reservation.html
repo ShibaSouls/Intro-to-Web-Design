@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucci's Place</title>
+    <meta name="description" content="Page Description Goes Here">
+  </head>
+  <body>
+    
+	<main>
+	
+		<header>
+  
+		<h1 class = "luccistitle">Lucci's Place</h1>
+	   
+		<nav>
+			<ul class="navul">
+				<li class="navli"><a href="index.html">Home</a></li>
+				<li class="navli"><a href="aboutus.html">About Us</a></li>
+				<li class="navli"><a href="menu.html">Menu</a></li>
+				<li class="navli"><a href="contact.html">Contact</a></li>
+				<li class="navli"><a href="orderonline.html">Order Online</a></li>
+				<li class="navli"><a href="reservation.html">Make Reservation</a></li>
+			</ul>
+		</nav>
+	   
+		</header>
+   
+		<!-- Form Elements go below -->
+		<form>
+	
+		<h2>Reservation Form</h2>
+	
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname"><br><br>
+	
+		<label for="lname">Last name:</label><br>
+		<input type="text" id="lname" name="lname"><br><br>
+	
+		<label for="number">Phone Number:</label><br>
+		<input type="text" id="number" name="number"><br><br>
+	
+		<label for="peoplenum">Number of People Dining:</label><br>
+		<input type="text" id="peoplenum" name="peoplenum"><br><br>
+	
+		<label for="time">Choose a reservation time:</label>
+		<select id="time" name="time">
+		<option value="four">4:00</option>
+		<option value="fourthirty">4:30</option>
+		<option value="five">5:00</option>
+		<option value="fivethirty">5:30</option>
+		<option value="six">6:00</option>
+		<option value="sixthirty">6:30</option>
+		<option value="seven">7:00</option>
+		<option value="seventhirty">7:30</option>
+		<option value="eight">8:00</option>
+		<option value="eightthirty">8:30</option>
+		</select><br><br>
+	
+		<label for="location">Choose a location:</label>
+		<select id="location" name="location">
+		<option value="volvo">Kent</option>
+		<option value="saab">Cuyahoga Falls</option>
+		</select><br><br>
+	
+		<button class="ordonlbutton" type="button" onclick="alert('Your reservation has been confirmed.')">Submit</button>
+
+	
+		</form>
+	
+	<footer>
+	
+		<div class="clearfix">
+		<aside>
+   
+			<p class="contactinfo"><u><strong>Kent:</u></strong><br>
+			405 Main St, Kent OH<br>
+			Monday-Sunday 11AM-9PM<br>
+			330-673-9833</p>
+	 
+		</aside>
+	
+		<section>
+   
+			<p class="contactinfo"><u><strong>Cuyahoga Falls:</u></strong><br>
+			2457 State Rd, Cuyahoga Falls OH<br>
+			Wendesday-Sunday 4PM-9PM<br>
+			234-571-0053</p>
+	
+		</section>
+		</div>
+	
+		<h4 class="contactinfo"> Email: <a class="email" href="mailto:luccisplace@gmail.com">luccisplace@gmail.com</a></h4>
+	
+	</footer>
+	   
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+  </main>
+  </body>
+</html>
